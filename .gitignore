@@ -1,0 +1,69 @@
+# ─────────────────────────────────────────
+# Trilogify — .gitignore
+# ─────────────────────────────────────────
+
+# Environment variables — NEVER commit your API keys
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Railway
+.railway/
+
+# Node (if you use any JS tooling)
+node_modules/
+npm-debug.log*
+
+# Output / generated files
+*.docx
+*.pdf
+output/
+outputs/
